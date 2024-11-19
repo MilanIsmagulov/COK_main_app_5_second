@@ -1,0 +1,69 @@
+/* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+.p_custom {
+    font-size: 1rem;
+}
+
+.image_custom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.image_custom img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.test_wrapper:has(.image_custom){
+    max-width: 100%;
+}
+
+.unique_div_6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_wrapper.unique_div_6 img{
+    width: 90%;
+}
+
+/* .unique_div_10 {
+    display: flex;
+    flex-direction: column;
+} */
+
+.main_wrapper.unique_div_10 img{
+    width: 90%;
+}
+
+.unique_div_index_15 {
+    display: flex;
+    flex-direction: column;
+}
+
+.unique_div_index_15 {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.unique_div_index_9 {
+    display: flex;
+    flex-direction: column !important;
+}
+
+#dynamic-content > div.image_test_type_2.unique_img_index_9 {
+    width: 80%;
+}
+
+#dynamic-content > div.image_test_type_2.unique_img_index_15 {
+    width: 90%;
+}
+
+#dynamic-content > div.image_test_type_2.unique_img_index_12 > img {
+    width: 80%;
+}
+
+#dynamic-content > div.image_test_type_2.unique_img_index_11 > img {
+    width: 80%;
+}
